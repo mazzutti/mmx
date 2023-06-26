@@ -100,7 +100,7 @@ for b = 1:3
                define   = {'WIN_SYSTEM','USE_BLAS'};
                
             case 'mmx_mkl_single'
-               root     = 'C:\Program Files (x86)\Intel\Composer XE 2011 SP1\mkl';
+               root     = 'C:\Program Files (x86)\Intel\oneAPI\mkl\2023.1.0';
                inc_dir  = [root '\include'];
                if strcmp(arch,'win32')
                   link_dir  = [root '\lib\ia32'];
